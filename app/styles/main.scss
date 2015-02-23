@@ -1,0 +1,31 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Custom Styles
+body{
+  background-color: black;
+}
+.holder{
+  color: white;
+  font-family: Dancing Script;
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button{
+    @include button(pill);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
